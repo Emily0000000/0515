@@ -1,0 +1,78 @@
+@charset "utf-8";
+.container  {
+	margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+body h1 {
+    color: #464B94;
+}
+body article h3 {
+    background-color: #858FAF;
+    border-radius: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+body article {
+}
+
+
+body article img {border-radius: 35px;
+    padding-left: 7px;
+    padding-top: 0px;
+    padding-right: 7px;
+}
+body article p {
+    background-color: #987EAA;
+    border-radius: 35px;
+    padding-left: 7px;
+    padding-top: 0px;
+    padding-right: 7px;
+}
+.body article p h3 {
+    background-color: #AF9DBD;
+}
+
+
+
+
+
+
+nav a:link {
+    text-align: center;
+    color: #5A7C8F;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+nav a:hover {
+    color: #394B52;
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding-left: auto;
+    padding-right: auto;
+	text-align: center;
+}
+.parallaxie img {
+    width: 200px;
+    height: 200px;
+    background-image: url(%E5%9C%96%E7%89%87/jingyou_painting-tools_S.png);
+}
+.parallaxie {
+    background-image: url(%E5%9C%96%E7%89%87/jingyou_painting-tools_S.png);
+    background-position: center center;
+    background-size: cover;
+}
+body nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body header {
+    background-image: url(%E5%9C%96%E7%89%87/jingyou_painting-tools_S.png);
+    background-size: cover;
+    background-position: center center;
+}
